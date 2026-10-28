@@ -37,3 +37,6 @@ Investigation Board is a browser-based relationship mapping prototype for organi
 
 
 Print troubleshooting update: The print chart is rendered in a dedicated off-screen layout before the browser print dialog opens, then fitted to the second A4 landscape page.
+
+
+Print chart fix v2: print network uses explicit pixel dimensions matching A4 landscape rendering, waits for redraw and fit before opening the print dialog, and preserves entity icon colors where the browser print settings allow backgrounds. In Chrome print settings, enable Background graphics for colored icons and chart styling.
