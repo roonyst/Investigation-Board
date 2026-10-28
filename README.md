@@ -34,3 +34,6 @@ Investigation Board is a browser-based relationship mapping prototype for organi
 - The app does not automatically save data in the browser. Refreshing or closing the page can lose unsaved work. Export a JSON project before leaving.
 - The network visualization library and fonts are loaded from external CDNs, so an internet connection is needed when loading the page.
 - Use a backend with access controls and audit logging before handling sensitive real-world investigation data.
+
+
+Print troubleshooting update: The print chart is rendered in a dedicated off-screen layout before the browser print dialog opens, then fitted to the second A4 landscape page.
